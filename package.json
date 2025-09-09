@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "tailwindcss -v >/dev/null 2>&1 || true"
+    "start": "next start"
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^3.10.0",
@@ -17,13 +16,14 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.7.0",
     "mongoose": "^8.6.0",
-    "next": "14.2.14",
+    "next": "^14.2.32",
     "openai": "^4.56.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/react": "19.1.12",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.12",
